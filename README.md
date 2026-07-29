@@ -143,6 +143,11 @@ This project includes 3D models for the **traffic light housing** and a small-sc
 <img width="157" height="512" alt="3d_model_2" src="https://github.com/user-attachments/assets/bdfc1ec2-4e21-481f-8b5c-81888b089082" />
 </p>
 
+**3D model of a traffic light**
+<p align="center">
+  <img width="1920" height="1080" alt="3dmaketa" src="https://github.com/user-attachments/assets/23f44c6d-23c3-49c7-bf95-df305fd3b50a" />
+</p>
+
 **Caption:** 3D model render of the traffic light housing and mockup used for 3D printing and assembly.
 
 ---
@@ -203,6 +208,19 @@ The system is designed to integrate with broader smart-city services:
   <strong>Team and Project Website</strong><br/>
   <em>Details about the team, development notes, design files and live demo — scan the QR code or visit <a href="https://statuesque-pudding-4a326c.netlify.app/">web page smartanci</a></em>
 </p>
+
+
+---
+
+## Model screenshots
+<p align="center">
+  <img width="1080" height="608" alt="maketa1" src="https://github.com/user-attachments/assets/9ca09aae-a9d1-463f-b1d2-b20dc7509b48" />
+<img width="1080" height="605" alt="757185577_1411444270985533_3401980388597535348_n" src="https://github.com/user-attachments/assets/3ca8f6f0-3ca3-4c7c-ab47-a5f7583ba3e0" />
+</p>
+
+
+## Event screenshots
+<img width="1006" height="669" alt="image" src="https://github.com/user-attachments/assets/50d489a6-df70-4506-9101-ea69b19faf56" />
 
 ---
 ## License
