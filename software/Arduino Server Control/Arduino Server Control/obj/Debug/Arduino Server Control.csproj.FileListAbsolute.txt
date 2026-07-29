@@ -1,0 +1,47 @@
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe.config
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.pdb
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.AssemblyReference.cache
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.LoginForm.resources
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.Properties.Resources.resources
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.GenerateResource.cache
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.CoreCompileInputs.cache
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.pdb
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe.config
+E:\VISUAL STUDIO\c# winforms\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.MainForm.resources
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe.config
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.pdb
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.AssemblyReference.cache
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe.config
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.LoginForm.resources
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.MainForm.resources
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.Properties.Resources.resources
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.GenerateResource.cache
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.CoreCompileInputs.cache
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe
+C:\Users\Mihajlo\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.pdb
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe.config
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.pdb
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.AssemblyReference.cache
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe.config
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.LoginForm.resources
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.MainForm.resources
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.Properties.Resources.resources
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.GenerateResource.cache
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.CoreCompileInputs.cache
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe
+C:\Users\mihaj\OneDrive\Desktop\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.pdb
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe.config
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.exe
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\bin\Debug\Arduino Server Control.pdb
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.AssemblyReference.cache
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.LoginForm.resources
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.MainForm.resources
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino_Server_Control.Properties.Resources.resources
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.GenerateResource.cache
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.csproj.CoreCompileInputs.cache
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.exe
+E:\galaksija_kup_2026\Arduino Server Control\Arduino Server Control\obj\Debug\Arduino Server Control.pdb
