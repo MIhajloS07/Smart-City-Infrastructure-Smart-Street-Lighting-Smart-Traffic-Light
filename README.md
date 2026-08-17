@@ -117,9 +117,20 @@ Four HC‑SR04 sensors are distributed along the street. The system uses **casca
 - Manual override controls and mode selection (AUTO / MANUAL / MAINTENANCE)
   
 <img width="1899" height="912" alt="web_server_dashboard" src="https://github.com/user-attachments/assets/3cb3eaef-f940-4301-b3c3-e451b67ee3fb" />
-
 ---
 
+## Smartanci Feedback mobile App
+
+This repository also includes the **Smartanci Feedback App** – a mobile .NET MAUI application designed to collect user feedback.  
+The app allows users to enter their name, surname, comment, and a rating (1–5 stars).  
+All feedback is sent via the **Formspree service**, providing a simple and efficient way to gather input directly from a mobile environment.
+
+<div style="display:flex; justify-content: center">
+<img width="396" height="779" alt="image" src="https://github.com/user-attachments/assets/9d8d049d-e304-432f-b7db-f9835d4f7afb" />
+<img width="384" height="778" alt="image" src="https://github.com/user-attachments/assets/e31b74e0-205b-448c-a4e1-0b1646afc81d" />
+</div>
+
+---
 ## UART & API message formats
 All messages are ASCII, CSV-style, newline-terminated (`\n`). Example messages:
 
