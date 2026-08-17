@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Smartanci_Feedback_App.MainPage"
+             Background="{StaticResource AppBackgroundGradient}">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="14">
+
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="3">
+                <Image Source="logo.png" HeightRequest="120" WidthRequest="120"/>
+                <Label Text="SMARTANCI" TextColor="White" FontSize="27" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Feedback Portal" TextColor="#FFD9B3" FontSize="12" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+            <!-- Rounded card behind the whole form -->
+            <Border StrokeShape="RoundRectangle 20"
+                    BackgroundColor="#141b2e"
+                    Padding="18"
+                    Margin="0,6">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Vaši podaci" TextColor="#b89779" FontAttributes="Bold"/>
+
+                    <!-- Rounded Entry -->
+                    <Border StrokeShape="RoundRectangle 10"
+                            BackgroundColor="#0f131f"
+                            Padding="6"
+                            Margin="0,4">
+                        <Entry x:Name="EntryName"
+                               Placeholder="Ime"
+                               BackgroundColor="Transparent"
+                               TextColor="White"
+                               PlaceholderColor="#4d5a72"
+                               HeightRequest="44"/>
+                    </Border>
+
+                    <Border StrokeShape="RoundRectangle 10"
+                            BackgroundColor="#0f131f"
+                            Padding="6"
+                            Margin="0,4">
+                        <Entry x:Name="EntrySurname"
+                               Placeholder="Prezime"
+                               BackgroundColor="Transparent"
+                               TextColor="White"
+                               PlaceholderColor="#4d5a72"
+                               HeightRequest="44"/>
+                    </Border>
+                    <Line X1="0"
+                        Y1="0"
+                        X2="500"
+                        Y2="0"
+                        Stroke="#4d5a72"
+                        StrokeThickness="0.5" />
+                    <Label Text="Komentar Sugestija" TextColor="#b89779" FontAttributes="Bold"/>
+                    <Border StrokeShape="RoundRectangle 10"
+                            BackgroundColor="#0f131f"
+                            Padding="6"
+                            Margin="0,4">
+                        <Editor x:Name="EditorComment"
+                                Placeholder="Vaš komentar ili sugestija..."
+                                HeightRequest="140"
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                PlaceholderColor="#4d5a72"/>
+                    </Border>
+                    <Line X1="0"
+                        Y1="0"
+                        X2="500"
+                        Y2="0"
+                        Stroke="#4d5a72"
+                        StrokeThickness="0.5" />
+                    <Label Text="Ocenite projekat" TextColor="#b89779" FontAttributes="Bold"/>
+                    <HorizontalStackLayout x:Name="RatingPanel" Spacing="8" HorizontalOptions="Center" />
+
+                    <Label Text="Tapnite na zvezdu"
+                           TextColor="#A0B0C8"
+                           FontSize="12"
+                           HorizontalTextAlignment="Center"
+                           Margin="12"/>
+
+                    <Button Text="POŠALJI POVRATNU INFORMACIJU"
+                            BackgroundColor="#FF7A00"
+                            TextColor="White"
+                            CornerRadius="10"
+                            HeightRequest="52"
+                            FontAttributes="Bold"
+                            Clicked="OnSendClicked"/>
+                    
+                    <ActivityIndicator x:Name="Activity"
+                                       IsVisible="False"
+                                       IsRunning="False"
+                                       Color="#FF7A00"/>
+                    <Label x:Name="StatusLabel"
+                           IsVisible="False"
+                           HorizontalTextAlignment="Center"
+                           Margin="3"/>
+                    
+                </VerticalStackLayout>
+            </Border>
+            <Label x:Name="SmartanciTeamLabel"
+                   TextColor="#A0B0C8"
+                   IsVisible="True"
+                   Margin="5"
+                   Text="© 2026 Tim Smartanci"
+                   HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

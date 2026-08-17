@@ -1,0 +1,18 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Smartanci_Feedback_App"
+             x:Class="Smartanci_Feedback_App.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="AppBackgroundGradient" StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#0f1626" Offset="0.0" />
+                <GradientStop Color="#0e1122" Offset="1.0" />
+            </LinearGradientBrush>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
