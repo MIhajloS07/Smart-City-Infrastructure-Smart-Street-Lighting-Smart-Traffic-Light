@@ -25,7 +25,7 @@ This repository contains the implementation and documentation for an integrated 
 - **Sensors** — four **HC‑SR04** ultrasonic sensors placed along the street for vehicle detection.  
 - **C# Administrative System** — desktop application for monitoring, logging, manual control and UART diagnostics.  
 - **Web Dashboard** — hosted on the Arduino R4 WiFi; provides live visualization, detection history graphs and UART logs.
-
+- **Feedback mobile App** — .NET MAUI mobile app for user feedback using formspree service  
 
 **Communication channels**
 - **WiFi (HTTP / WebSocket)** — server ↔ web dashboard / C# app (when networked)  
