@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 530" width="1200" height="530" role="img" aria-label="Smart City Infrastructure: adaptive street lighting and smart traffic light">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111b2e"/>
+  </linearGradient>
+  <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f5b942" stop-opacity="0.60"/>
+    <stop offset="1" stop-color="#f5b942" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#1a2740"/>
+  </pattern>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="530" fill="url(#bg)"/>
+<rect width="1200" height="530" fill="url(#dots)" opacity="0.7"/>
+<g>
+  <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="1.2s" fill="freeze"/>
+  <rect x="60" y="62" width="28" height="3" fill="#f5b942"/>
+  <text x="60" y="92" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#f5b942">TEAM SMARTANCI  /  TEAM PROJECT</text>
+  <text x="60" y="152" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#f1f5f9">Smart City Infrastructure</text>
+  <text x="60" y="188" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#94a3b8">Smart Street Lighting  &amp;  Smart Traffic Light</text>
+  <text x="60" y="222" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#64748b">Arduino  |  HC-SR04  |  UART  |  C#  |  .NET MAUI  |  Web Dashboard</text>
+</g>
+<g transform="translate(0 130)">
+<rect x="0" y="290" width="1200" height="56" fill="#141c2b"/>
+<line x1="0" y1="290" x2="1200" y2="290" stroke="#243047" stroke-width="1.5"/>
+<line x1="0" y1="346" x2="1200" y2="346" stroke="#243047" stroke-width="1.5"/>
+<line x1="0" y1="318" x2="1200" y2="318" stroke="#34445f" stroke-width="2" stroke-dasharray="20 16"/>
+<g opacity="0.10"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.0469;0.0619;0.2500;0.2650;1.0000" values="0.1;0.1;1;1;0.1;0.1"/><polygon points="241,206 259,206 355,292 145,292" fill="url(#cone)"/><ellipse cx="250" cy="300" rx="115" ry="9" fill="#f5b942" opacity="0.22" filter="url(#soft)"/><circle cx="250" cy="202" r="9" fill="#f5b942" opacity="0.55" filter="url(#soft)"/></g>
+<line x1="250" y1="290" x2="250" y2="208" stroke="#3b4a63" stroke-width="3"/>
+<rect x="237" y="198" width="26" height="9" rx="4" fill="#4b5a73"/>
+<text x="266" y="240" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">S1</text>
+<g opacity="0.10"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.0469;0.0619;0.4453;0.4603;1.0000" values="0.1;0.1;1;1;0.1;0.1"/><polygon points="491,206 509,206 605,292 395,292" fill="url(#cone)"/><ellipse cx="500" cy="300" rx="115" ry="9" fill="#f5b942" opacity="0.22" filter="url(#soft)"/><circle cx="500" cy="202" r="9" fill="#f5b942" opacity="0.55" filter="url(#soft)"/></g>
+<line x1="500" y1="290" x2="500" y2="208" stroke="#3b4a63" stroke-width="3"/>
+<rect x="487" y="198" width="26" height="9" rx="4" fill="#4b5a73"/>
+<text x="516" y="240" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">S2</text>
+<g opacity="0.10"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.2422;0.2572;0.6406;0.6556;1.0000" values="0.1;0.1;1;1;0.1;0.1"/><polygon points="741,206 759,206 855,292 645,292" fill="url(#cone)"/><ellipse cx="750" cy="300" rx="115" ry="9" fill="#f5b942" opacity="0.22" filter="url(#soft)"/><circle cx="750" cy="202" r="9" fill="#f5b942" opacity="0.55" filter="url(#soft)"/></g>
+<line x1="750" y1="290" x2="750" y2="208" stroke="#3b4a63" stroke-width="3"/>
+<rect x="737" y="198" width="26" height="9" rx="4" fill="#4b5a73"/>
+<text x="766" y="240" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">S3</text>
+<g opacity="0.10"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.4375;0.4525;0.8359;0.8509;1.0000" values="0.1;0.1;1;1;0.1;0.1"/><polygon points="991,206 1009,206 1105,292 895,292" fill="url(#cone)"/><ellipse cx="1000" cy="300" rx="115" ry="9" fill="#f5b942" opacity="0.22" filter="url(#soft)"/><circle cx="1000" cy="202" r="9" fill="#f5b942" opacity="0.55" filter="url(#soft)"/></g>
+<line x1="1000" y1="290" x2="1000" y2="208" stroke="#3b4a63" stroke-width="3"/>
+<rect x="987" y="198" width="26" height="9" rx="4" fill="#4b5a73"/>
+<text x="1016" y="240" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">S4</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.0469;0.0619;0.2500;0.2650;1.0000" values="0;0;1;1;0;0"/><ellipse cx="150" cy="318" rx="130" ry="26" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55" stroke-dasharray="4 5"/></g>
+<rect x="140" y="350" width="20" height="12" rx="3" fill="#38bdf8" opacity="0.45"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.0469;0.0619;0.2500;0.2650;1.0000" values="0.45;0.45;1;1;0.45;0.45"/></rect>
+<text x="150" y="384" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">HC1</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.2422;0.2572;0.4453;0.4603;1.0000" values="0;0;1;1;0;0"/><ellipse cx="400" cy="318" rx="130" ry="26" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55" stroke-dasharray="4 5"/></g>
+<rect x="390" y="350" width="20" height="12" rx="3" fill="#38bdf8" opacity="0.45"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.2422;0.2572;0.4453;0.4603;1.0000" values="0.45;0.45;1;1;0.45;0.45"/></rect>
+<text x="400" y="384" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">HC2</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.4375;0.4525;0.6406;0.6556;1.0000" values="0;0;1;1;0;0"/><ellipse cx="650" cy="318" rx="130" ry="26" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55" stroke-dasharray="4 5"/></g>
+<rect x="640" y="350" width="20" height="12" rx="3" fill="#38bdf8" opacity="0.45"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.4375;0.4525;0.6406;0.6556;1.0000" values="0.45;0.45;1;1;0.45;0.45"/></rect>
+<text x="650" y="384" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">HC3</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.6328;0.6478;0.8359;0.8509;1.0000" values="0;0;1;1;0;0"/><ellipse cx="900" cy="318" rx="130" ry="26" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55" stroke-dasharray="4 5"/></g>
+<rect x="890" y="350" width="20" height="12" rx="3" fill="#38bdf8" opacity="0.45"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0.0000;0.6328;0.6478;0.8359;0.8509;1.0000" values="0.45;0.45;1;1;0.45;0.45"/></rect>
+<text x="900" y="384" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">HC4</text>
+<g><animateTransform attributeName="transform" type="translate" from="-40 0" to="1240 0" dur="9s" repeatCount="indefinite"/><polygon points="30,313 80,306 80,320" fill="#f5b942" opacity="0.30"/><rect x="-30" y="304" width="60" height="16" rx="5" fill="#e2e8f0"/><rect x="-15" y="294" width="30" height="12" rx="4" fill="#94a3b8"/><circle cx="-16" cy="321" r="5" fill="#0b1220" stroke="#64748b" stroke-width="1.5"/><circle cx="16" cy="321" r="5" fill="#0b1220" stroke="#64748b" stroke-width="1.5"/></g>
+</g>
+</svg>
