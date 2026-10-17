@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Animated traffic light cycling through green, yellow, red and red plus yellow">
+<clipPath id="frameclip"><rect x="0" y="0" width="1200" height="340" rx="14"/></clipPath>
+<g clip-path="url(#frameclip)">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111b2e"/>
+  </linearGradient>
+  <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f5b942" stop-opacity="0.60"/>
+    <stop offset="1" stop-color="#f5b942" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#1a2740"/>
+  </pattern>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+<linearGradient id="ry" x1="0" y1="0" x2="0" y2="1"><stop offset="0.5" stop-color="#ef4444"/><stop offset="0.5" stop-color="#facc15"/></linearGradient></defs>
+
+<rect width="1200" height="340" fill="url(#bg)"/>
+<rect width="1200" height="340" fill="url(#dots)" opacity="0.7"/>
+<rect x="80" y="30" width="96" height="280" rx="16" fill="#0f1726" stroke="#2a3850" stroke-width="2"/>
+<circle cx="128" cy="90" r="30" fill="#ef4444" opacity="0.12" stroke="#1f2b42" stroke-width="2"/>
+<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.45333;0.45833;1.00000" values="0;0;1;1"/><circle cx="128" cy="90" r="46" fill="#ef4444" opacity="0.35" filter="url(#soft)"/><circle cx="128" cy="90" r="30" fill="#ef4444"/></g>
+<circle cx="128" cy="170" r="30" fill="#facc15" opacity="0.12" stroke="#1f2b42" stroke-width="2"/>
+<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;0.45333;0.45833;0.87000;0.87500;1.00000" values="0;0;1;1;0;0;1;1"/><circle cx="128" cy="170" r="46" fill="#facc15" opacity="0.35" filter="url(#soft)"/><circle cx="128" cy="170" r="30" fill="#facc15"/></g>
+<circle cx="128" cy="250" r="30" fill="#22c55e" opacity="0.12" stroke="#1f2b42" stroke-width="2"/>
+<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;1.00000" values="1;1;0;0"/><circle cx="128" cy="250" r="46" fill="#22c55e" opacity="0.35" filter="url(#soft)"/><circle cx="128" cy="250" r="30" fill="#22c55e"/></g>
+<rect x="300" y="51" width="22" height="2" fill="#f5b942"/><text x="332" y="57" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.5" fill="#f5b942">FALLBACK CYCLE</text>
+<text x="300" y="130" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#22c55e" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;1.00000" values="1;1;0;0"/>GREEN</text>
+<text x="300" y="130" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#facc15" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;0.45333;0.45833;1.00000" values="0;0;1;1;0;0"/>YELLOW</text>
+<text x="300" y="130" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ef4444" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.45333;0.45833;0.87000;0.87500;1.00000" values="0;0;1;1;0;0"/>RED</text>
+<text x="300" y="130" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#facc15" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.87000;0.87500;1.00000" values="0;0;1;1"/>RED + YELLOW</text>
+<text x="300" y="164" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8" >Predefined timing used when communication with the server is lost.</text>
+<rect x="300.0" y="200" width="262.7" height="26" rx="4" fill="#22c55e" opacity="0.35"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;1.00000" values="1;1;0.35;0.35"/></rect>
+<text x="300.0" y="250" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b" >GREEN 4.0 s</text>
+<rect x="566.7" y="200" width="96.0" height="26" rx="4" fill="#facc15" opacity="0.35"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.32833;0.33333;0.45333;0.45833;1.00000" values="0.35;0.35;1;1;0.35;0.35"/></rect>
+<text x="566.7" y="250" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b" >YELLOW 1.5 s</text>
+<rect x="666.7" y="200" width="329.3" height="26" rx="4" fill="#ef4444" opacity="0.35"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.45333;0.45833;0.87000;0.87500;1.00000" values="0.35;0.35;1;1;0.35;0.35"/></rect>
+<text x="666.7" y="250" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b" >RED 5.0 s</text>
+<rect x="1000.0" y="200" width="96.0" height="26" rx="4" fill="url(#ry)" opacity="0.35"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0.00000;0.87000;0.87500;1.00000" values="0.35;0.35;1;1"/></rect>
+<text x="1000.0" y="250" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b" >R+Y 1.5 s</text>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="800 0" dur="12s" repeatCount="indefinite"/><line x1="300" y1="190" x2="300" y2="236" stroke="#f1f5f9" stroke-width="2"/><polygon points="294,182 306,182 300,191" fill="#f1f5f9"/></g>
+<text x="300" y="300" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b" >Client: Arduino Uno R3. Phase durations shown are illustrative.</text>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="339" rx="13.5" fill="none" stroke="#243047" stroke-width="1"/>
+</svg>

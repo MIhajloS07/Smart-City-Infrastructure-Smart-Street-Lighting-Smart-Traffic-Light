@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 530" width="1200" height="530" role="img" aria-label="Smart City Infrastructure: adaptive street lighting and smart traffic light">
+<clipPath id="frameclip"><rect x="0" y="0" width="1200" height="530" rx="14"/></clipPath>
+<g clip-path="url(#frameclip)">
 
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -62,4 +64,6 @@
 <text x="900" y="384" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#64748b">HC4</text>
 <g><animateTransform attributeName="transform" type="translate" from="-40 0" to="1240 0" dur="9s" repeatCount="indefinite"/><polygon points="30,313 80,306 80,320" fill="#f5b942" opacity="0.30"/><rect x="-30" y="304" width="60" height="16" rx="5" fill="#e2e8f0"/><rect x="-15" y="294" width="30" height="12" rx="4" fill="#94a3b8"/><circle cx="-16" cy="321" r="5" fill="#0b1220" stroke="#64748b" stroke-width="1.5"/><circle cx="16" cy="321" r="5" fill="#0b1220" stroke="#64748b" stroke-width="1.5"/></g>
 </g>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="529" rx="13.5" fill="none" stroke="#243047" stroke-width="1"/>
 </svg>

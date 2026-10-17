@@ -21,7 +21,13 @@
   &nbsp;·&nbsp;
   <a href="#uart--message-protocol">Protocol</a>
   &nbsp;·&nbsp;
+  <a href="#documentation">Documentation</a>
+  &nbsp;·&nbsp;
   <a href="#roadmap--iot-integration">Roadmap</a>
+</p>
+
+<p align="center">
+  <img src="./assets/stats.svg" alt="Project at a glance" width="100%" />
 </p>
 
 ---
@@ -32,19 +38,22 @@
 2. [Key features](#key-features)
 3. [System architecture](#system-architecture)
 4. [Lighting logic](#lighting-logic)
-5. [Hardware](#hardware)
-6. [Software and tools](#software--tools)
-7. [C# admin application](#c-admin-application)
-8. [Web dashboard](#web-dashboard)
-9. [Feedback mobile app](#smartanci-feedback-mobile-app)
-10. [UART and message protocol](#uart--message-protocol)
-11. [3D models and physical mockup](#3d-models--physical-mockup)
-12. [Bill of materials](#bill-of-materials)
-13. [Quick start](#quick-start)
-14. [Reliability and security](#reliability--security)
-15. [Roadmap and IoT integration](#roadmap--iot-integration)
-16. [Gallery](#gallery)
-17. [License](#license)
+5. [Vehicle detection](#vehicle-detection)
+6. [Smart traffic light](#smart-traffic-light)
+7. [Hardware](#hardware)
+8. [Software and tools](#software--tools)
+9. [C# admin application](#c-admin-application)
+10. [Web dashboard](#web-dashboard)
+11. [Feedback mobile app](#smartanci-feedback-mobile-app)
+12. [UART and message protocol](#uart--message-protocol)
+13. [3D models and physical mockup](#3d-models--physical-mockup)
+14. [Bill of materials](#bill-of-materials)
+15. [Quick start](#quick-start)
+16. [Reliability and security](#reliability--security)
+17. [Documentation](#documentation)
+18. [Roadmap and IoT integration](#roadmap--iot-integration)
+19. [Gallery](#gallery)
+20. [License](#license)
 
 ---
 
@@ -60,6 +69,10 @@ Four ultrasonic sensors detect vehicles along the street. An **Arduino Uno R4 Wi
 | **Energy saving** | Segments without traffic stay dimmed (PWM). |
 | **Visibility** | Live monitoring through a web dashboard and a desktop admin app. |
 | **Scalability** | Modular design that can grow into wider smart-city integration. |
+
+<p align="center">
+  <img src="./assets/lighting-compare.svg" alt="Conventional always-on lighting compared with adaptive lighting that follows the vehicle" width="100%" />
+</p>
 
 ---
 
@@ -121,6 +134,26 @@ The four sensors are distributed along the street. **Cascading logic** creates a
 | **HC4** | Exit segment | S4 |
 
 When HC1 detects a vehicle, the server sets S1 and S2 to active brightness. When HC2 triggers, S2 and S3 become active, and so on. The corridor travels with the traffic while the rest of the street stays dimmed.
+
+---
+
+## Vehicle detection
+
+Each **HC-SR04** emits an ultrasonic burst after a 10 µs trigger pulse and measures how long the echo takes to return. The width of the echo pulse is proportional to the distance to the object, which is how the firmware decides that a vehicle is present in front of a sensor.
+
+<p align="center">
+  <img src="./assets/sensor-ping.svg" alt="HC-SR04 emits ultrasonic pulses; the echo pulse width changes with the distance to the vehicle" width="100%" />
+</p>
+
+---
+
+## Smart traffic light
+
+The client (**Arduino Uno R3**) drives the traffic light. In normal operation it follows commands from the server. If communication is lost, it switches to a safe local cycle with predefined timing.
+
+<p align="center">
+  <img src="./assets/traffic-light.svg" alt="Animated traffic light cycling through green, yellow, red and red plus yellow" width="100%" />
+</p>
 
 ---
 
@@ -195,6 +228,12 @@ When HC1 detects a vehicle, the server sets S1 and S2 to active brightness. When
 - Manual override controls and mode selection (`AUTO` / `MANUAL` / `MAINTENANCE`)
 
 <p align="center">
+  <img src="./assets/detection-timeline.svg" alt="Scrolling timeline of sensor detections as vehicles pass HC1 to HC4" width="100%" />
+</p>
+
+<p align="center"><sub>Illustration of the detection history graph. Screenshot of the real dashboard below.</sub></p>
+
+<p align="center">
   <img width="1899" height="912" alt="Web server dashboard" src="https://github.com/user-attachments/assets/3cb3eaef-f940-4301-b3c3-e451b67ee3fb" />
 </p>
 
@@ -224,6 +263,10 @@ All messages are **ASCII, CSV-style and newline-terminated** (`\n`).
 | `ADMIN_CMD` | C# → Server | `SEMAFOR,MODE,AUTO\n` |
 
 Every command expects an `ACK` or `ERR` response. The firmware implements retries and timeouts.
+
+<p align="center">
+  <img src="./assets/uart-log.svg" alt="Animated UART monitor showing commands and acknowledgements between server and client" width="100%" />
+</p>
 
 ---
 
@@ -285,6 +328,7 @@ The web files are served by the Arduino R4 WiFi. Open the server's static IP add
 ```text
 .
 ├── assets/            # README illustrations (animated SVG)
+├── docs/              # Written papers (PDF, Serbian)
 ├── firmware/
 │   ├── server/        # Arduino Uno R4 WiFi: lighting logic, dashboard host
 │   └── client/        # Arduino Uno R3: smart traffic light
@@ -311,6 +355,12 @@ The web files are served by the Arduino R4 WiFi. Open the server's static IP add
 - **Logging and alerts:** automatic fault detection and admin notifications.
 - **Acknowledgements:** all commands are acknowledged, with timeouts and retries in firmware.
 - **Firmware updates:** an OTA update path is planned for the R4 (secure update recommended).
+
+---
+
+## Documentation
+
+The written project papers (in Serbian) are available in the [`docs/`](./docs) folder as PDF files.
 
 ---
 
